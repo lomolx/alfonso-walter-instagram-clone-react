@@ -1,0 +1,30 @@
+.story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: min-content;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 7px;
+    flex-flow: column;
+}
+
+.story-image{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    border: 3px solid gray;
+}
+.story-image-closeFriends {
+    border: 3px solid #22c40d;
+}
+
+.story-image-noVisto {
+    border: 3px solid #de39db;
+}
+
+.story-image-visto {
+    border: 3px solid #bbbbbb;
+}  
