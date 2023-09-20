@@ -1,0 +1,19 @@
+.galeria{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:auto auto auto;
+    gap: 0.5em;
+}
+
+.galeria-item{
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color: #DDD;
+}
+
+.galeria-item img{
+    width: 100%;
+}
