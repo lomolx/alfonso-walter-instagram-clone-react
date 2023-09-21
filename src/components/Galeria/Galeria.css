@@ -5,13 +5,9 @@
     grid-template-columns:auto auto auto;
     gap: 0.5em;
 }
-
-.galeria-item{
-    width: 300px;
-    padding: 10px;
-    margin: 5px;
-    text-align: center;
-    background-color: #DDD;
+.GaleryBar{
+    display: flex;
+    justify-content: center;
 }
 
 .galeria-item img{

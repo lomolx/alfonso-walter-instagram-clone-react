@@ -1,6 +1,8 @@
 import "./GaleryItem.css"
 
 function GaleryItem ({image, alter,action}){
+
+    
     return(
         <>
         <li className="GaleryItem">
@@ -10,21 +12,7 @@ function GaleryItem ({image, alter,action}){
         </>
     )
 
-    const galeryBar = [
-        {
-          image:" ",
-          alter:" ",
-          action:" "
-        },
-        {
-            image:" ",
-            alter:" ",
-            action:" "
-        },
-        {
-            image:" ",
-            alter:" ",
-            action:" "
-        }
-    ]
+    
 }
+
+export default GaleryItem
