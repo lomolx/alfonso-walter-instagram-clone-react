@@ -1,49 +1,50 @@
 [
     {
-        "icon": "https://cdn-icons-png.flaticon.com/512/7829/7829598.png?ga=GA1.1.725881825.1695154282",
+        "icon": "../src/assets/icons/home.svg",
         "alter": "Boton de inicio",
         "action": "Inicio"
     },
 
     {
-        "icon": "https://cdn-icons-png.flaticon.com/512/149/149852.png?ga=GA1.1.725881825.1695154282",
+        "icon": "../src/assets/icons/Search.svg",
         "alter": "Boton de búsqueda",
         "action": "Búsqueda"
     },
 
     {
-        "icon": "https://cdn-icons-png.flaticon.com/512/159/159627.png?ga=GA1.1.725881825.1695154282",
+        "icon": "../src/assets/icons/Explore.svg",
         "alter": "Boton de explorar",
         "action": "Explorar"
     },
 
     {
-        "icon": "https://seeklogo.com/images/I/instagram-reels-logo-18CF7D9510-seeklogo.com.png",
+        "icon": "../src/assets/icons/Reels.svg",
         "alter": "Boton de reels",
         "action": "Reels"
     },
 
     {
-        "icon": "https://static.thenounproject.com/png/3084968-200.png",
+        "icon": "../src/assets/icons/Messages.svg",
         "alter": "Boton de mensajes",
         "action": "Mensajes"
     },
 
     {
-        "icon": "https://www.clipartmax.com/png/full/357-3576861_image-instagram-heart-icon-svg.png",
+        "icon": "../src/assets/icons/Like.svg",
         "alter": "Boton de notificaciones",
         "action": "Notificaciones"
     },
 
     {
-        "icon": "https://static-00.iconduck.com/assets.00/plus-icon-512x512-q1puivky.png",
+        "icon": "../src/assets/icons/New_post.svg",
         "alter": "Boton de crear",
         "action": "Crear"
     },
 
     {
-        "icon": "https://caracol.com.co/resizer/XzWhrkhAKv0L3ygKZ2cwj4RoPSI=/1600x1600/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/prisaradioco/QQR7KPETKFOK5MJ2EVN4PKQ6AI.jpg",
+        "icon": "../src/assets/icons/Profile.svg",
         "alter": "Boton de perfil",
-        "action": "Perfil"
+        "action": "Perfil",
+        "class": "NavItem-Icon"
     }
 ]

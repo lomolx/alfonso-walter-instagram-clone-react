@@ -1,5 +1,5 @@
 import "./NavItem.css"
-import "./NavItemDB.json"
+import NavItemDB from "./NavItemDB.json"
 
 
 function NavItem({icon, alter, action}){

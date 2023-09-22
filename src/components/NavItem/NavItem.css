@@ -1,13 +1,24 @@
+
 .navItem{
+    border-radius: 5px;
     display: flex;
-    padding: 15px;
+    width: 100%;
+    min-width: 180px;
+    margin: 5px 0px;
+    padding: 12px;
 }
 
-.navItem-icon {
-    height: 20px;
-    max-height: 20px;
+.navItem-Icon {
+    height: 25px;
+    margin-right: 16px;
 }
+
+.navItem-IconPerfil {
+    border-radius: 50%;
+}
+
 
 .navItem-action {
     padding-left: 5px;
 }
+
