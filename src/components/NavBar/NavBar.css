@@ -1,0 +1,42 @@
+.NavBar {
+    position: fixed;
+    top: 0px;
+    width: 220px;
+    height: 100vh;
+    border-right: 1px solid rgb(197, 196, 196);
+    padding: 10px;
+}
+
+.NavBar-Logo{
+    margin: 25px 0px;
+    padding-left: 10px;
+}
+
+.NavBar-Items {
+    padding-left: 0px;
+}
+
+.NavBar-Items li{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.NavBar-Items li:hover{
+    background-color: rgb(185, 183, 183);
+    transition-delay: 0.25s;
+    border-radius: 5px;
+}
+
+.NavBar-ToggleMenu{
+    position: absolute;
+    bottom: 30px;
+    padding-left: 0px;
+}
+
+.NavBar-ToggleMenu:hover{
+    background-color: rgb(185, 183, 183);
+    transition-delay: 0.25s;
+    border-radius: 5px;
+}
+
+
