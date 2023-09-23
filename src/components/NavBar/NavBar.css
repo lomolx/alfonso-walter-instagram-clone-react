@@ -1,5 +1,5 @@
 .NavBar {
-    position: fixed;
+    position: sticky;
     top: 0px;
     width: 220px;
     height: 100vh;
