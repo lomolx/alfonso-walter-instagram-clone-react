@@ -7,9 +7,9 @@ function Galeria(){
 
     const galeryBar = [
         {
-          image:"../src/assets/icons/icono_grid.png",
-          alter:"Boton de publicaciones",
-          action:"PUBLICACIONES "
+        image:"../src/assets/icons/icono_grid.png",
+        alter:"Boton de publicaciones",
+        action:"PUBLICACIONES "
         },
         {
             image:"../src/assets/icons/Bookmark.svg ",
@@ -17,10 +17,10 @@ function Galeria(){
             action:"GUARDADAS "
         },
         {
-          image:"../src/assets/icons/icono_etiqueta.svg ",
-          alter:"Boton de Etiquetadas ",
-          action:"ETIQUETADAS"
-      }
+        image:"../src/assets/icons/icono_etiqueta.svg ",
+        alter:"Boton de Etiquetadas ",
+        action:"ETIQUETADAS"
+    }
     ]
 
     const fotos = [
@@ -59,6 +59,15 @@ function Galeria(){
         },
         {
             foto: "https://i.ytimg.com/vi/Oso6dYXw5lc/hqdefault.jpg"
+        },
+        {
+            foto: "https://i.ytimg.com/vi/Oso6dYXw5lc/hqdefault.jpg"
+        },
+        {
+            foto: "https://i.ytimg.com/vi/Oso6dYXw5lc/hqdefault.jpg"
+        },
+        {
+            foto: "https://i.ytimg.com/vi/Oso6dYXw5lc/hqdefault.jpg"
         }
     ]
 
@@ -69,7 +78,7 @@ function Galeria(){
             {galeryBar.map((item)=><GaleryItem image={item.image} alter={item.alter} action={item.action} />)}
         </div>
         <div className="galeria"> 
-             {fotos.map((fotito)=><img src={fotito.foto}/>)}
+            {fotos.map((fotito)=><img src={fotito.foto}/>)}
         </div>
         </>
         )
