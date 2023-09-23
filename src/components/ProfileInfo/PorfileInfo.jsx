@@ -22,8 +22,8 @@ function ProfileInfo(){
                 </ul>
                 <ul className="ProfileInfo-Data-Numbers">
                     <ProfileNumber number="5 " action="Publicaciones"/>
-                    <ProfileNumber number={randon} action="Seguidores"/>
-                    <ProfileNumber number={randon} action="Seguidos"/>
+                    <ProfileNumber number="530" action="Seguidores"/>
+                    <ProfileNumber number="680" action="Seguidos"/>
                 </ul>
                 <span>{userData.userName}</span>
                 <p>{userData.descr}</p>
